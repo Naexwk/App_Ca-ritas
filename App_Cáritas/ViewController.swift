@@ -1,0 +1,19 @@
+//
+//  ViewController.swift
+//  App_Cáritas
+//
+//  Created by Alumno on 06/09/22.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+
+}
+
