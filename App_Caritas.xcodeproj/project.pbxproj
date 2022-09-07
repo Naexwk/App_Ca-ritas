@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FB3923DF28C797DC00A90EFA /* App_Cáritas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App_Cáritas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3923DF28C797DC00A90EFA /* App_Caritas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_Caritas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3923E228C797DC00A90EFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB3923E428C797DC00A90EFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FB3923E628C797DC00A90EFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		FB3923D628C797DC00A90EFA = {
 			isa = PBXGroup;
 			children = (
-				FB3923E128C797DC00A90EFA /* App_Cáritas */,
+				FB3923E128C797DC00A90EFA /* App_Caritas */,
 				FB3923E028C797DC00A90EFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		FB3923E028C797DC00A90EFA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FB3923DF28C797DC00A90EFA /* App_Cáritas.app */,
+				FB3923DF28C797DC00A90EFA /* App_Caritas.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FB3923E128C797DC00A90EFA /* App_Cáritas */ = {
+		FB3923E128C797DC00A90EFA /* App_Caritas */ = {
 			isa = PBXGroup;
 			children = (
 				FB3923E228C797DC00A90EFA /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				FB3923ED28C797E000A90EFA /* LaunchScreen.storyboard */,
 				FB3923F028C797E000A90EFA /* Info.plist */,
 			);
-			path = "App_Cáritas";
+			path = App_Caritas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FB3923DE28C797DC00A90EFA /* App_Cáritas */ = {
+		FB3923DE28C797DC00A90EFA /* App_Caritas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB3923F328C797E000A90EFA /* Build configuration list for PBXNativeTarget "App_Cáritas" */;
+			buildConfigurationList = FB3923F328C797E000A90EFA /* Build configuration list for PBXNativeTarget "App_Caritas" */;
 			buildPhases = (
 				FB3923DB28C797DC00A90EFA /* Sources */,
 				FB3923DC28C797DC00A90EFA /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "App_Cáritas";
+			name = App_Caritas;
 			productName = "App_Cáritas";
-			productReference = FB3923DF28C797DC00A90EFA /* App_Cáritas.app */;
+			productReference = FB3923DF28C797DC00A90EFA /* App_Caritas.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FB3923DA28C797DC00A90EFA /* Build configuration list for PBXProject "App_Cáritas" */;
+			buildConfigurationList = FB3923DA28C797DC00A90EFA /* Build configuration list for PBXProject "App_Caritas" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FB3923DE28C797DC00A90EFA /* App_Cáritas */,
+				FB3923DE28C797DC00A90EFA /* App_Caritas */,
 			);
 		};
 /* End PBXProject section */
@@ -339,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FB3923DA28C797DC00A90EFA /* Build configuration list for PBXProject "App_Cáritas" */ = {
+		FB3923DA28C797DC00A90EFA /* Build configuration list for PBXProject "App_Caritas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB3923F128C797E000A90EFA /* Debug */,
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB3923F328C797E000A90EFA /* Build configuration list for PBXNativeTarget "App_Cáritas" */ = {
+		FB3923F328C797E000A90EFA /* Build configuration list for PBXNativeTarget "App_Caritas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB3923F428C797E000A90EFA /* Debug */,
