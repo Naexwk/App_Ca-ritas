@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		445F73D728C7A1460063B18D /* PantallaInicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F73D628C7A1460063B18D /* PantallaInicioViewController.swift */; };
-		44B0E23828C8DD26002879EC /* PantallaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B0E23728C8DD26002879EC /* PantallaViewController.m */; };
 		FB3923E328C797DC00A90EFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3923E228C797DC00A90EFA /* AppDelegate.swift */; };
 		FB3923E528C797DC00A90EFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3923E428C797DC00A90EFA /* SceneDelegate.swift */; };
 		FB3923E728C797DC00A90EFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3923E628C797DC00A90EFA /* ViewController.swift */; };
@@ -18,10 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		445F73D628C7A1460063B18D /* PantallaInicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantallaInicioViewController.swift; sourceTree = "<group>"; };
-		44B0E23128C8D6AA002879EC /* App_Cáritas-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App_Cáritas-Bridging-Header.h"; sourceTree = "<group>"; };
-		44B0E23628C8DD26002879EC /* PantallaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PantallaViewController.h; sourceTree = "<group>"; };
-		44B0E23728C8DD26002879EC /* PantallaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PantallaViewController.m; sourceTree = "<group>"; };
 		FB3923DF28C797DC00A90EFA /* App_Cáritas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App_Cáritas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3923E228C797DC00A90EFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB3923E428C797DC00A90EFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,13 +60,9 @@
 				FB3923E428C797DC00A90EFA /* SceneDelegate.swift */,
 				FB3923E628C797DC00A90EFA /* ViewController.swift */,
 				FB3923E828C797DC00A90EFA /* Main.storyboard */,
-				445F73D628C7A1460063B18D /* PantallaInicioViewController.swift */,
-				44B0E23628C8DD26002879EC /* PantallaViewController.h */,
-				44B0E23728C8DD26002879EC /* PantallaViewController.m */,
 				FB3923EB28C797E000A90EFA /* Assets.xcassets */,
 				FB3923ED28C797E000A90EFA /* LaunchScreen.storyboard */,
 				FB3923F028C797E000A90EFA /* Info.plist */,
-				44B0E23128C8D6AA002879EC /* App_Cáritas-Bridging-Header.h */,
 			);
 			path = "App_Cáritas";
 			sourceTree = "<group>";
@@ -109,7 +99,6 @@
 				TargetAttributes = {
 					FB3923DE28C797DC00A90EFA = {
 						CreatedOnToolsVersion = 13.4.1;
-						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -149,9 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				445F73D728C7A1460063B18D /* PantallaInicioViewController.swift in Sources */,
 				FB3923E728C797DC00A90EFA /* ViewController.swift in Sources */,
-				44B0E23828C8DD26002879EC /* PantallaViewController.m in Sources */,
 				FB3923E328C797DC00A90EFA /* AppDelegate.swift in Sources */,
 				FB3923E528C797DC00A90EFA /* SceneDelegate.swift in Sources */,
 			);
@@ -298,7 +285,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B5MA56J7UP;
@@ -317,8 +303,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Gru-s-Lab.App-Ca-ritas";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "App_Cáritas/App_Cáritas-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,7 +313,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B5MA56J7UP;
@@ -348,7 +331,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Gru-s-Lab.App-Ca-ritas";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "App_Cáritas/App_Cáritas-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
